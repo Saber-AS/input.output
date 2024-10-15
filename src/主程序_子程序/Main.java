@@ -3,7 +3,7 @@ package 主程序_子程序;
 import java.io.*;
 import java.util.*;
 
-public class demo1 {
+public class Main {
 
     private ArrayList<String> kwicList = new ArrayList<String>();
     private ArrayList<String> lineTxt = new ArrayList<String>();
@@ -13,7 +13,7 @@ public class demo1 {
     public static void main(String[] args) {
 
 
-        demo1 kwic = new demo1();
+        Main kwic = new Main();
         kwic.input("F:\\软体\\input_output\\src\\主程序_子程序\\input.txt");
         kwic.shift();
         kwic.alphabetizer();
